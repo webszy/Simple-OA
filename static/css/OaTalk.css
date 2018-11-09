@@ -1,0 +1,39 @@
+#GehAppTalk{
+  width: 570px;
+  height: 530px;
+  margin: auto;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
+.ToTalkTop{
+  padding-top: 20px;
+  height: 405px;
+  overflow-y: auto;
+}
+
+.ToTalkTop>ul li b{
+  display: inline-block;
+  border:1px solid #ccc;
+  width:45px;
+  height:45px;
+  text-align: center;
+  vertical-align: middle;
+}
+.ToTalkTop>ul>li{
+  margin:10px 0;
+}
+.ToTalkTop>ul li p{
+  display: inline-block;
+  padding:5px 10px;
+  border-radius:5px;
+  color:#fffdef;
+  font-size:15px;
+}
+.ToTalkBottom{
+  text-align: right;
+  padding-bottom: 18px;
+}
+.ToTalkBottom .el-button{
+  margin-top: 25px;
+  margin-right: 60px;
+}

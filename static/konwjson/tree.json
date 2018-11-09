@@ -1,0 +1,36 @@
+[
+  {
+    "listli": "用户管理",
+    "listhot": {
+      "pic": "用户列表",
+      "title": "通讯信息",
+      "describelook": "登录信息"
+    }
+  },
+  {
+    "listli": "商户管理",
+    "listhot": {
+      "pic": "用户列表",
+      "title": "通讯信息",
+      "describelook": "登录信息"
+    }
+  },
+  {
+    "listli": "用户管理",
+    "listhot": {
+      "pic": "用户列表",
+      "title": "通讯信息",
+      "describelook": "登录信息"
+    }
+  },
+  {
+    "listli": "商户管理",
+    "listhot": {
+      "pic": "用户列表",
+      "title": "通讯信息",
+      "describelook": "登录信息"
+    }
+  }
+]
+
+

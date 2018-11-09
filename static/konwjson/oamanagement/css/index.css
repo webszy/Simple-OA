@@ -1,0 +1,239 @@
+@charset "utf-8";
+/*******globe***********/
+body,div,p,ul,ol,li,dl,dt,dd,table,tr,td,th,form,h1,h2,h3,h4,h5,h6,input,textarea
+,fieldset,figure{
+    margin:0;
+    padding:0;
+}
+/* html{font-size: 26.67vw;} */
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Arial";
+    background-color: #2D2D2D;
+}
+img{
+    border:0;
+    outline:none;
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style:none;
+}
+input,button{
+    outline:none;
+}
+/*验证码*/
+.verificationCode{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+ }
+.verificationCode h1{
+    margin-top: 13px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 13px;
+    font-family: -apple-system;
+    width: 100%;
+    float: left;
+}
+canvas{
+    float: right;
+    border:1px solid #dde0e4;
+    width: 120px;
+    height: 45px;
+}
+.Code{
+    float: left;
+    display: block;
+    width: 60%;
+    height: 45px;
+    border:1px solid #dde0e4;
+    border-radius: 2px;
+    color: #333333;
+    text-indent: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+/*整个页面部分*/
+#mydiv{
+    width: 100%;
+    height: 1000px;
+    /*background-image: url("../img/simple-codelines.svg");*/
+    /*background-size: cover;*/
+    background-color: #2c3137;
+}
+.xjpLeft{
+    margin-left:22%;
+    margin-top: 137px;
+    width: 30%;
+    height: 478px;
+    /*background-color: #ffffff;*/
+    float: left;
+}
+.xjpRight{
+    margin-left: 5%;
+    margin-top: 137px;
+    width: 18%;
+    height: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    float: left;
+    border-radius: 5px;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+}
+.manage{
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 84px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.system{
+    font-size: 64px;
+    line-height: 50px;
+    color: #ffffff;
+}
+.vhp{
+    margin-top: 40px;
+    color: #a9b2bb;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: normal!important;
+}
+.xjpRight h3{
+    margin-top: 13px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 13px;
+    font-family: -apple-system;
+}
+.xjpText{
+    width: 100%;
+    height: 45px;
+    border:1px solid #dde0e4;
+    border-radius: 2px;
+    color: #333333;
+    text-indent: 5px;
+}
+.xjpPassinput{
+    width: 100%;
+    height: 45px;
+    border:1px solid #dde0e4;
+    border-radius: 2px;
+    color: #333333;
+    text-indent: 5px;
+}
+.pickUser{
+    font-size: 14px;
+    color: #dcb98f;
+    font-weight: 100;
+    margin-top: 4px;
+    display: none;
+}
+.pickPass{
+    font-size: 14px;
+    color: #dcb98f;
+    font-weight: 100;
+    margin-top: 4px;
+    display: none;
+}
+.Verification{
+    font-size: 14px;
+    color: #dcb98f;
+    font-weight: 100;
+    margin-top: 4px;
+    display: none;
+}
+.sure{
+    font-size: 14px;
+    color: #333333;
+    line-height: 25px;
+}
+.signUp{
+    width: 100%;
+    height: 44px;
+    background-color: #2ebc4f;
+    line-height: 44px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.agree{
+    font-size: 14px;
+    color: #333333;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+/*背景效果*/
+li.purchase a {
+    padding-top: 5px;
+    background-position: 0px -4px;
+}
+
+li.remove_frame a {
+    padding-top: 5px;
+    background-position: 0px -3px;
+}
+.fdad a {
+    color: #000;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.fdad {
+    top: 66px;
+}
+
+.xgcj li {
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: none;
+    transition: all 1s ease 0s;
+    border-radius: 5px;
+}
+
+.xgcj li:hover {
+    background-color: #e4e4e4;
+}
+
+.xgcj {
+    background-color: rgba(255,255,255,.3);
+    overflow-x: hidden;
+}
+
+.xgcj ul {
+    padding: 10px
+}
+
+.xgcj h3 {
+    line-height: 30px;
+}
+
+.xgcj p {
+    padding-left: 20px;
+    font-size: 13px;
+    display: none;
+}
+
+.xgcj span {
+    font-family: "宋体";
+}
+
+.xgcj li:hover p {
+    display: block;
+}

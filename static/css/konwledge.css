@@ -1,0 +1,90 @@
+body, div, p, ul, ol, li, dl, dt, dd, table, tr, td, th, form, h1, h2, h3, h4, h5, h6, input, textarea, fieldset, figure {
+    margin: 0;
+    padding: 0; }
+ul, ol {
+    list-style: none; }
+
+a{
+    text-decoration: none; }
+
+img {
+    border: 0;
+    display: block; }
+/*konwledge-top*/
+.konw_top{
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #dadada;
+}
+.konw_img{
+    display: flex;
+}
+.konwledgimgs{
+    width:39px;
+    height:39px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+}
+.kone_file{
+    color:#000000;
+    font-size: 14px;
+    padding-top:10px;
+}
+.konw_icon{
+    display: flex;
+}
+.icon_imgs{
+    width:100px;
+    height:25px;
+    line-height:25px;
+    margin-top:25px;
+    margin-right:10px;
+    border:1px solid #dadada;
+}
+.icon-list{
+    font-size: 16px;
+    margin-left:10px;
+    margin-top:30px;
+    margin-right:10px;
+
+}
+/*nav_top*/
+.nav_top{
+    width:100%;
+    height:30px;
+    border:1px solid #dadada;
+    line-height:30px;
+    background:#f5f5f5;
+}
+.icon-cc-arrow-circle-left{
+    margin-left:15px;
+}
+/*section*/
+.konw_section{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.konw_list{
+    width:180px;
+    height:144px;
+    margin-top:10px;
+    margin-left:10px;
+    border:1px solid #dadada;
+}
+.konw_list .icon-wenjianjiazhankai1{
+    color:#7cb7ea;
+    font-size: 50px;
+  text-align: center;
+    height:90px;
+    line-height:90px;
+    margin-left: 70px;
+}
+.konw_font{
+    color:#000000;
+    font-size: 12px;
+    text-align: center;
+}

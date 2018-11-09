@@ -1,0 +1,643 @@
+html,body,#app{
+  height:100%;
+}
+#Gehapp1{
+  height:100%;
+  background:#fcfcfc;
+  padding-bottom:125px;
+}
+/*header*/
+.GehHeader{
+  padding-left:14px;
+  padding-right:11px;
+  clear: both;
+  height:70px;
+  background: #fff;
+  position: relative;
+  z-index: 1000;
+  /*padding-top:11px;*/
+  /*margin:11px;*/
+  /*border-bottom:1px solid #dadada;*/
+}
+.GehHeader .GehHeaderLeft,.GehHeader .GehHeaderLeft{
+  float:left;
+}
+.GehHeader .GehHeaderLeft ul>li{
+  float: left;
+}
+/*.GehHeader ul{*/
+  /*overflow: hidden;*/
+/*}*/
+.GehHeaderUls{
+  padding-top:11px;
+}
+.GehHeader .GehHeaderRight{
+  float:right;
+}
+.GehHeaderRight div{
+  float: left;
+}
+.GehHeaderRight div p{
+  float: left;
+}
+.GehHeaderLeft li>p{
+  font-size:15px;
+  color:#000;
+  margin-bottom:2px;
+  padding-left:10px;
+}
+.GehHeaderLeft li>p+ul{
+  position:relative;
+  height:31px;
+}
+.GehHeaderLeft li>p+ul li b{
+  font-size:11px;
+  color:#000;
+  height: 40px;
+  padding:0 10px;
+  font-weight: 400;
+}
+.GehHeaderLeft li>p+ul li:first-child b{
+  color:#369eff;
+}
+.GehHeaderLeft li>p+ul li{
+  font-size:13px;
+  color:#bed0ed;
+  cursor: pointer;
+}
+.GehHeaderLeft li>p+ul .GehMagicLine{
+  width:24px;
+  height:14px;
+  background: url(../img/angle_wev8.png) no-repeat 50% 50%;
+  position:absolute;
+  top: 19px;
+  left:13px;
+}
+/*.GehHeaderLeft ul>li:nth-child(2){*/
+  /*padding-left:8px;*/
+/*}*/
+.GehHeaderRight{
+  padding-top:20px;
+}
+.GehHeaderRight div p{
+  cursor: pointer;
+  box-sizing:border-box;
+  color:#fff;
+  font-size:12px;
+  width:73px;
+  height:23px;
+  background:#30b5ff;
+  text-align: center;
+  line-height:23px;
+  border:1px solid #30b5ff;
+}
+.GehHeaderRight div p:hover{
+  color:#fff;
+  background: #03a996;
+  border:1px solid #03a996;
+}
+.GehHeaderRight div:nth-last-of-type(1){
+  padding-left:4px;
+  padding-right:16px;
+}
+.GehHeaderRight div p:last-child{
+  border:1px solid #aecef1;
+  color:#1098ff;
+  background:none;
+}
+.GehHeaderRight div p:last-child:hover{
+  color:#fff;
+  background: #03a996;
+  border:1px solid #03a996;
+}
+.GehHeaderRightInp{
+  float: left;
+  width:90px;
+  height:21px;
+  border:1px solid #f5f2f2;
+}
+.GehHeaderRight div .GehHeaderRightBtn{
+  float: left;
+  height:21px;
+  border:1px solid #f5f2f2;
+  background:none;
+}
+.GehHeaderRight div .GehHeaderRightBtnO{
+  height:23px;
+  border-left:0 solid transparent;
+}
+.GehHeaderRightBtnO i{
+  font-size:15px;
+  color:#aaaaaa;
+}
+.GehHeaderRight div .GehHeaderRightBtnT{
+  height:23px;
+  width:75px;
+  color:#888686;
+  font-size:11px;
+  border-left:0 solid transparent;
+}
+.GehHeaderRight span{
+  position:relative;
+}
+.GehHeaderRight span ul{
+  /*display: none;*/
+  box-sizing: border-box;
+  background:#f9f9f9;
+  border:1px solid #a4a4a4;
+  z-index: 5;
+  position:absolute;
+  left:-127px;
+  top:25px;
+  width:150px;
+  height:125px;
+  padding:4px 0;
+}
+.GehHeaderRight span ul li{
+  line-height:23px;
+  font-size:12px;
+  color:#000;
+  text-indent:8px;
+  cursor: pointer;
+}
+.GehHeaderRight span ul li:hover{
+  background:#e6e6e6;
+}
+.GehHeaderRight span ul li img{
+  padding-right:8px;
+}
+
+.GehHeaderRight .icon-list{
+  color:#4f81bd;
+}
+/*center*/
+.GehCenter{
+  width:100%;
+  height:522px;
+  border-top:1px solid #dadada;
+  position:relative;
+  top:-3px;
+  overflow:auto;
+  z-index: 500;
+}
+.GehCenterLeft{
+  box-sizing: border-box;
+  float: left;
+  width:30%;
+  height:100%;
+  background: #fff;
+  border-right:1px solid #bdbdbd;
+}
+.GehCenterLeftNav{
+  overflow: hidden;
+  border-bottom:1px solid #dadada;
+  padding:0 5px;
+}
+.GehCenterLeftNav>ul{
+  overflow: hidden;
+}
+.GehCenterLeftNav>ul li{
+  width:82px;
+  height:31px;
+  line-height:31px;
+  cursor: pointer;
+  float: left;
+  text-align:center;
+  font-size:11px;
+  color:#786571;
+  cursor: pointer;
+}
+.GehCenterLeftNav>ul li b{
+  background:url(../../static/img/icon_arrow1_wev8.png) no-repeat left center;
+  font-size:16px;
+  color:#d2d2d2;
+  margin-left:2px;
+  padding-left:13px;
+  padding-right:6px;
+}
+.GehCenterLeftNav>ul li:first-child{
+  text-align:left;
+  width:35px;
+}
+.GehCenterLeftNavSpan{
+  display: inline-block;
+  background:transparent url(../../static/img/checkbox_wev8.gif) center top;
+  height:18px;
+  width:18px;
+  cursor: pointer;
+}
+.GehCenterLeftNav>ul li:first-child input{
+  display: none;
+}
+.GehCenterLeftNavBox{
+  float:right;
+  height:31px;
+}
+.GehCenterLeftNavBoxS1{
+  padding-top:5px;
+  float: left;
+  vertical-align: middle;
+}
+.GehCenterLeftBody h6{
+  display: block;
+  font-size:11px;
+  color:#242424;
+  background:#f5f5f5;
+  height:30px;
+  line-height:30px;
+  border-bottom:1px solid #e6e6e6;
+}
+.GehCenterLeftBody>ul li{
+  padding-left:2px;
+  padding-right:5px;
+  height:30px;
+  line-height:30px;
+  border-bottom:1px solid #e6e6e6;
+  cursor: pointer;
+}
+/*.GehCenterLeftBody>ul li:hover{*/
+  /*background:#f5fafb!important;*/
+/*}*/
+.GehCenterLeftBody>ul li p{
+  color:#242424;
+  font-size:11px;
+  display: inline-block;
+}
+.GehCenterLeftBody>ul li input{
+  display: none;
+
+}
+.GehCenterLeftBody b{
+  width:14px;
+  height:14px;
+  background:url(../img/mailicon_wev8.png) no-repeat -32px -160px;
+  float:right;
+  margin-top:8px;
+}
+.GehCenterRight{
+  box-sizing: border-box;
+  float: right;
+  width:70%;
+  position:relative;
+}
+.GehCenterRightContant h6{
+  display: block;
+  font-size:9px;
+  color:#138efc;
+  background:#f5f5f5;
+  height:30px;
+  line-height:30px;
+  text-indent: 6px;
+  border-bottom:1px solid #dadada;
+}
+.GehCenterRightContant h6 b{
+  display: inline-block;
+  width:16px;
+  height:30px;
+  float: right;
+  margin-right:5px;
+  cursor: pointer;
+  background:url(../img/icon_down_wev8.png) no-repeat center center;
+}
+.GehCenterRightManage{
+  border:1px solid #dadada;
+  border-top:none;
+  background: #fff;
+
+}
+.GehCenterRightManage p{
+  font-size:16px;
+  color:#929393;
+  line-height:37px;
+  text-indent: 6px;
+}
+.GehCenterRightEdit{
+  width: 100%;
+  position:absolute;
+  top: 31px;
+}
+.GehCenterRightBox{
+  background: #fff;
+  padding:6px;
+  padding-bottom: 0;
+}
+.GehCenterRightBox>p{
+  display: block;
+  font-size:12px;
+  color:#d6cac7;
+  background:url(../img/sign_wev8.png) no-repeat left center;
+  height:28px;
+  line-height:28px;
+  border:1px solid #ececec;
+  border-left:3px solid #fe4e4c;
+  padding-left:25px;
+  cursor: pointer;
+  /*margin:5px;*/
+}
+.GehCenterRightBox>p:hover{
+  border:1px solid #7fbbf2;
+  border-left:3px solid #7fbbf2;
+}
+.GehCenterRightBoxbianji{
+ border-bottom:1px solid #dee3e3;
+}
+.GehCenterRightBoxbianji .el-button{
+  margin:6px 0;
+}
+
+.GehCenterRightBoxNav{
+  height:35px;
+  padding:7px 0 5px 9px;
+  /*border-bottom:1px solid #dadada;*/
+  position: relative;
+  /*margin-right:5px;*/
+}
+.GehCenterRightBoxNav ul:first-child{
+  float: left;
+}
+.GehCenterRightBoxNav ul:last-child{
+  float: right;
+}
+.GehCenterRightBoxNav ul li{
+  float: left;
+  padding-left: 30px;
+  cursor: pointer;
+  color:#000;
+  line-height:30px;
+}
+.GehCenterRightBoxNav ul li:nth-child(1){
+  color:#369eff;
+  background:url(../img/cowork_discusses_a_wev8.png) no-repeat left center;
+}
+.GehCenterRightBoxNav ul li:nth-child(2){
+  background:url(../img/cowork_related_wev8.png) no-repeat left center;
+}
+.GehCenterRightBoxNav ul li:nth-child(3){
+  background:url(../img/cowork_join_wev8.png) no-repeat left center;
+}
+.GehCenterRightBoxNav ul li:nth-child(4){
+  background:url(../img/cowork_relatedme_wev8.png) no-repeat left center;
+}
+.GehCenterRightBoxNav ul li:nth-child(5){
+  width:20px;
+  height:10px;
+  padding-left: 0;
+  clear: both;
+  background:url(../img/angle_wev8.png) no-repeat center;
+  position: absolute;
+  left:50px;
+  top:36px;
+  z-index: 5;
+}
+.GehCenterRightBoxNav ul:last-child li{
+  background:none;
+}
+.GehCenterRightBoxNav ul:last-child li:first-child b{
+  width:43px;
+  height:26px;
+  float:left;
+}
+.GehCenterRightBoxNav ul:last-child li:first-child b:first-child{
+  background:url(../img/reply_r_wev8.png) no-repeat center;
+}
+.GehCenterRightBoxNav ul:last-child li:first-child b:last-child{
+  background:url(../img/show_h_a_wev8.png) no-repeat center;
+}
+.GehCenterRightBoxNavInp{
+  border:1px solid #f5f2f2;
+  border-right:none;
+  height:23px;
+  width:90px;
+  float: left;
+}
+.GehCenterRightBoxNavBtn1{
+  border:1px solid #f5f2f2;
+  border-left:none;
+  width:24px;
+  height:23px;
+  background:none;
+  float: left;
+}
+.GehCenterRightBoxNavBtn1 i{
+  color:#adadad;
+  font-size:15px;
+}
+.GehCenterRightBoxNavBtn2{
+  background: none;
+  color:#888686;
+  font-size:11px;
+  line-height:23px;
+  border:1px solid #f5f2f2;
+  border-left:none;
+  height:23px;
+  float: left;
+}
+.GehCenterRightFooterTemp{
+  padding: 8px 5px 0 5px;
+}
+.GehCenterRightFooter{
+  border:1px solid #dadada;
+  min-height:60px;
+  background: #fff;
+}
+.GehCenterRightFooter>p{
+  text-align:center;
+  line-height:60px;
+  display: none;
+}
+.GehCenterRightFooterMess{
+  padding:5px;
+  padding-bottom:0;
+}
+.GehCenterRightFooterMess>ul{
+  overflow: hidden;
+}
+.GehCenterRightFooterMess>ul li{
+  float:left;
+}
+.GehCenterRightFooterMessLis{
+  margin-left:10px;
+}
+.GehCenterRightFooterMessLis1{
+  color:#929393;
+  font-size:9px;
+}
+.GehCenterRightFooterMess>ul>li:nth-child(2)>span,.GehCenterRightFooterMess>ul>li:nth-child(2)>p{
+  float: left;
+  line-height:20px;
+}
+.GehCenterRightFooterMess>ul li:nth-child(2)>p{
+  margin-bottom:17px;
+}
+.GehCenterRightFooterMess>ul li:nth-child(2) b{
+  clear: both;
+  display: block;
+  font-weight: 400;
+  color:#888;
+}
+.GehCenterRightFooterMess>ul li:last-child{
+  float: right;
+}
+.GehCenterRightFooterMess>ul:nth-child(2)>li{
+  clear: both;
+  width:100%;
+}
+.GehCenterRightFooterMess>ul:first-child li input{
+  display: none;
+}
+.GehCenterRightFooterMess>ul:last-child{
+  margin-top:26px;
+  padding-left:43px;
+  padding-bottom:16px;
+}
+.GehCenterRightFooterMess>ul:last-child li{
+  font-size:11px;
+  color:#999999;
+
+}
+.GehCenterRightFooterMess>ul:last-child li:last-child ul li{
+  padding-left:16px;
+  margin-right:5px;
+  cursor: pointer;
+ }
+.GehCenterRightFooterMess>ul:last-child li:last-child ul li:nth-child(1){
+  background:url(../img/del_wev8.png) no-repeat left center;
+}
+.GehCenterRightFooterMess>ul:last-child li:last-child ul li:nth-child(2){
+  background:url(../img/quote_wev8.png) no-repeat left center;
+}
+.GehCenterRightFooterMess>ul:last-child li:last-child ul li:nth-child(3){
+  background:url(../img/com_wev8.png) no-repeat left center;
+}
+.GehCenterRightFooterMess>ul:last-child li:last-child ul li:nth-child(4){
+  background:url(../img/top_wev8.png) no-repeat left center;
+}
+.GehCenterRightFooterMessLishuifu{
+  margin:35px 0;
+  background:#f5f5f5;
+  border:1px solid #dadada;
+}
+.GehCenterRightFooterMessLishuifuOne{
+  overflow: hidden;
+}
+.GehCenterRightFooterMessLishuifu>li .GehCenterRightFooterMessLishuifuOne h5{
+  font-size:12px;
+  color:#006a92;
+  padding-left:19px;
+  float: left;
+  padding-top:13px;
+}
+.GehCenterRightFooterMessLishuifu>li .GehCenterRightFooterMessLishuifuOne ul{
+  float:right;
+  padding-top: 13px;
+}
+.GehCenterRightFooterMessLishuifu>li .GehCenterRightFooterMessLishuifuOne ul li{
+  width:15px;
+  height:15px;
+}
+.GehCenterRightFooterMessLishuifu>li .GehCenterRightFooterMessLishuifuOne ul li:first-child{
+  background:url(../img/com_del_wev8.png) no-repeat center center;
+}
+.GehCenterRightFooterMessLishuifu>li .GehCenterRightFooterMessLishuifuOne ul li:last-child{
+  background:url("../img/com_wev8(1).png") no-repeat center center;
+}
+.GehCenterRightFooterMessLishuifu>li .GehCenterRightFooterMessLishuifuOne h5 span{
+  font-size:11px;
+  color:#929393;
+  padding-left:19px;
+}
+.GehCenterRightFooterMessLishuifuTwo{
+  padding-left:19px;
+}
+.GehCenterRightFooterMessLishuifuTwo p{
+  font-size:10px;
+  color:#333333;
+  line-height:40px;
+  padding-left: 43px;
+}
+.GehCenterRightFooterMessLishuifuOne>ul>li{
+  margin-right:15px;
+  padding-top:20px;
+  cursor: pointer;
+}
+
+
+.GehCenterRightFooterbianji{
+  border:1px solid #dee3e3;
+  background:#fff;
+  margin:10px;
+  padding:10px;
+}
+.GehCenterRightFooterbianji>p{
+  font-size:11px;
+  color:#999;
+  line-height:30px;
+}
+
+.GehHeaderRightDisabled{
+  text-align:right;
+  margin-top: 8px;
+  color: #999999;
+  font-size: 12px;
+}
+.GehHeaderRightDisabled .GehHeaderRightDisabled1{
+  padding: 4px 8px;
+  margin: 10px 0px 0px 3px;
+  font-size: 12px;
+  border: 1px solid #DFDFDF;
+  background-color: #FFF;
+  color: #DFDFDF;
+  cursor: pointer;
+}
+.GehHeaderRightDisabled .GehCurr{
+  padding: 4px 8px;
+  margin: 10px 0px 0px 3px;
+  font-size: 12px;
+  border: 1px solid #488fcd;
+  background-color: #488fcd;
+  color: #FFF;
+}
+
+/*new*/
+.GehCoopNew>span{
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  display: block;
+  background:#888;
+  opacity: .6;
+  z-index:6;
+}
+.GehCoopNewSon{
+  position:fixed;
+  padding:0 10px 20px;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+  z-index:7;
+  background:#fff;
+  width:585px;
+  height:400px;
+  opacity: 1;
+}
+.GehCoopNewSon>h4{
+  line-height:30px;
+  background:#4f81bd;
+  padding:0 5px;
+  margin-bottom:25px;
+  border-bottom:1px solid #bcbcbc;
+  font-size:12px;
+  color:#fff;
+}
+.GehCoopNewSon>h4 span{
+  float:right;
+  font-size:23px;
+  cursor: pointer;
+}
+
+

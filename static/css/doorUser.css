@@ -1,0 +1,238 @@
+@charset "utf-8";
+/*******globe***********/
+body,div,p,ul,ol,li,dl,dt,dd,table,tr,td,th,form,h1,h2,h3,h4,h5,h6,input,textarea
+,fieldset,figure{
+    margin:0;
+    padding:0;
+}
+/* html{font-size: 26.67vw;} */
+html,body{
+    width: 100%;
+    height: 100%;
+}
+img{
+    border:0;
+    outline:none;
+}
+a{
+    text-decoration:none;
+}
+ul,ol,li{
+    list-style:none;
+}
+input,button{
+    outline:none;
+}
+
+.doorBox{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.doorLefts{
+    width: 68%;
+    height: auto;
+    float: left;
+}
+.doorRight{
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+/*.add{*/
+  /*font-size: 16px;*/
+  /*color: #333333;*/
+  /*text-align: center;*/
+  /*margin-top: 60px;*/
+  /*margin-bottom: 10px;*/
+  /*width: 20px;*/
+  /*height: 20px;*/
+/*}*/
+.add .icon-jiahao{
+  display: block;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: red;
+  font-weight: 100;
+}
+
+/*日历*/
+.cale{
+  width: 100%;
+  height: 300px;
+}
+.doorHeader{
+    width:100%;
+    height: 226px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#box{
+    width: 100%;
+    height: 226px;
+    overflow: hidden;
+}
+/*#box img{*/
+    /*width: 100%;*/
+    /*height: 226px;*/
+    /*background-size: cover;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+/*}*/
+.write{
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.write li{
+    width: 33.3%;
+    height: 48px;
+    font-size: 15px;
+    color: #333333;
+    line-height: 48px;
+    text-align: center;
+    opacity: 0.9;
+    background-color: #bbbecb;
+    float: left;
+}
+.write li:hover{
+    background-color: #39598f;
+    color: #ffffff;
+}
+
+
+.news{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.newsCen{
+    width: 100%;
+    height: auto;
+}
+.newsCon{
+    width: 100%;
+    height: auto;
+
+}
+.thing{
+    width: 100%;
+    height: 58px;
+   cursor: pointer;
+}
+.thing li{
+    line-height: 58px;
+    font-size: 14px;
+    color: #c1c1c1;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+}
+.thing li:hover{
+  color: #333333;
+}
+.process{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.process li{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.process li h3{
+    color: #333333;
+    font-size: 15px;
+    float: left;
+    font-weight: 100;
+    line-height: 30px;
+    text-indent: 10px;
+}
+.process li h2{
+    color: #333333;
+    font-size: 15px;
+    float: right;
+    margin-right: 50px;
+    font-weight: 100;
+    line-height: 30px;
+}
+.process li p{
+    color: #333333;
+    font-size: 15px;
+    float: right;
+    line-height: 30px;
+}
+
+/*unread*/
+.unread{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.unread img{
+    display: block;
+}
+.cooperation{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.cooperation li{
+    width: 100%;
+    line-height: 25px;
+    font-size: 15px;
+    color: #333333;
+    text-indent: 10px;
+}
+/*新闻中心*/
+.congList{
+  width: 100%;
+  height: 58px;
+}
+.congList li{
+  line-height: 58px;
+  font-size: 14px;
+  color: #c1c1c1;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+.congList li:hover{
+  color: #333333;
+}
+.congrantlion{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.congrantlion li{
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  /* float: right; */
+}
+
+.congrantlion li h2{
+  color: #333333;
+  font-size: 15px;
+  float: left;
+  font-weight: 100;
+  line-height: 30px;
+  text-indent: 10px;
+}
+.congrantlion li h3{
+  color: #333333;
+  font-size: 15px;
+  float: right;
+  font-weight: 100;
+  line-height: 30px;
+}
